@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_05_051041) do
+ActiveRecord::Schema.define(version: 2020_12_05_073755) do
+
+  create_table "ramen_reviews", force: :cascade do |t|
+    t.integer "user_id", null: false
+    t.integer "ramen_shop_id", null: false
+    t.string "content"
+    t.integer "score"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["ramen_shop_id"], name: "index_ramen_reviews_on_ramen_shop_id"
+    t.index ["user_id"], name: "index_ramen_reviews_on_user_id"
+  end
 
   create_table "ramen_shops", force: :cascade do |t|
     t.string "name"
@@ -31,4 +42,6 @@ ActiveRecord::Schema.define(version: 2020_12_05_051041) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "ramen_reviews", "ramen_shops"
+  add_foreign_key "ramen_reviews", "users"
 end
