@@ -18,6 +18,6 @@ class RamenReviewsController < ApplicationController
 
   private
   def ramen_review_params
-    params.permit(:ramen_shop_id, :score, :content)
+    params.require(:ramen_review).permit(:ramen_shop_id, :score, :content)
   end
 end
