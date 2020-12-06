@@ -28,3 +28,76 @@
 .average-score-display {
   font-size:16px;
 }
+
+.shop-intro {
+    width:100%;
+    background-color:white;
+    color:black;
+    padding:40px 15px 15px 30px;
+    line-height:32px;
+    display:inline-block;
+    font-size:13px;
+    text-decoration:underline;
+}
+
+.shop-intro-img {
+  width:100%;
+  background-color:white;
+  color:black;
+  padding:15px;
+  line-height:25px;
+  display:inline-block;
+  font-size:12px;
+}
+
+.shop-detail {
+  width:100%;
+  background-color:white;
+  color:black;
+  padding:20px 15px 25px 15px;
+  line-height:25px;
+  font-size:13px;
+  border-top:1px solid rgba(10, 10, 10, 0.205);
+  border-bottom:1px solid rgba(10, 10, 10, 0.205);
+}
+
+.about-shop {
+  display:flex;
+}
+
+.owner-name {
+  display:flex;
+  justify-content:center;
+  font-size:13px;
+  padding-top:5px;
+  word-spacing:10px;
+}
+
+.ramen-img {
+  width:33.3%;
+  height:20%;
+  display:flex;
+}
+
+.ramens {
+  background-color:white;
+  color:black;
+  display:flex;
+  justify-content:center;
+  padding: 5px 0;
+}
+
+.pop-ramens {
+  display:flex;
+  width:100%;
+}
+
+.pop-ramen {
+  width:33.3%;
+  display:flex;
+  justify-content:center;
+  margin-bottom:30px;
+  background-color:white;
+  color:black;
+  border:0.5px rgba(0, 0, 0, 0.068) solid;
+}
