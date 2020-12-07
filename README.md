@@ -21,4 +21,8 @@
 レビューした内容は、ラーメン店の詳細ページにて確認することができます。
 
 <img width="575" alt="スクリーンショット 2020-12-07 10 25 47" src="https://user-images.githubusercontent.com/70629162/101299749-96aabb80-3876-11eb-9ddb-fe9967cd4b0d.png">
+  
+レビュー後、星の平均が割り出され表示されています。
+　　
+<img width="574" alt="スクリーンショット 2020-12-07 10 31 32" src="https://user-images.githubusercontent.com/70629162/101299995-631c6100-3877-11eb-9ed7-59a2e57c6b54.png">
 
