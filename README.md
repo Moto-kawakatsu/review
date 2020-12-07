@@ -26,9 +26,13 @@
   
 <img width="574" alt="スクリーンショット 2020-12-07 10 31 32" src="https://user-images.githubusercontent.com/70629162/101299995-631c6100-3877-11eb-9ed7-59a2e57c6b54.png">
   
+  
 # 今後追加したい機能
   
 ラーメン屋の店主が、自分の店をレビューサイトに出すことができるよう、店主側の機能も作成したいです。  
   
 具体的には、店の紹介文や画像など、それぞれの店舗ごとに登録できるようにしたいと思います。
-
+  
+  
+# GitHub
+https://github.com/Moto-kawakatsu/review.git
